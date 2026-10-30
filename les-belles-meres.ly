@@ -6,7 +6,15 @@ composer = "La Bolduc"
 }
 
 \score {
+    % Visuellement, on écrit bien "Harmonica"
+    \new Staff \with {
+        instrumentName = #"Harmonica"
+        shortInstrumentName = #"Harm."
+        midiMinimumVolume = #0.9
+        midiMaximumVolume = #1.0
+    }
 <<
+
     \relative {
      \tempo 4 = 120
     \key a \major
