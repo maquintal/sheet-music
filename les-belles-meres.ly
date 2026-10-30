@@ -16,7 +16,9 @@ composer = "La Bolduc"
 <<
 
     \relative {
-     \tempo 4 = 120
+    % Pour le haut-parleur, on utilise le son de l'accordéon (plus fiable)
+    \set Staff.midiInstrument = #"accordion"
+    \tempo 4 = 120
     \key a \major
     \numericTimeSignature
     \time 4/4
@@ -33,7 +35,18 @@ composer = "La Bolduc"
     cis4 a8 cis8 b4 gis8 b8 |
     a2. r4 |
     }
-  \addlyrics {"4" "3" "5" "6" "7" "5" "6"  }
+  \addlyrics {
+  "3" "4" | 
+  "5" "5" "5" "-4" "5" |
+  "-4" "5" "3" "4" |
+  "5" "5" "6" "-5" "5" |
+  "-4" "6" "-5" | 
+  "5" "5" "-4" "4" "-5" "5" |
+  "6" "5" "-5" "-4" "-5" |
+  "5" "4" "5" "-4" "-3" "-4" | 
+  "4"
+
+  }
 >>
 
 \layout {}
