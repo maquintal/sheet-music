@@ -8,8 +8,11 @@ composer = "La Bolduc"
 \score {
 <<
     \relative {
+     \tempo 4 = 120
     \key a \major
+    \numericTimeSignature
     \time 4/4
+    
     \clef treble
 
     r2 r4 e'8 a |
