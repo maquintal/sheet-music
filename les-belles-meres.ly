@@ -7,6 +7,7 @@ composer = "La Bolduc"
 
 \score {
     % Visuellement, on écrit bien "Harmonica"
+    %
     \new Staff \with {
         instrumentName = #"Harmonica"
         shortInstrumentName = #"Harm."
