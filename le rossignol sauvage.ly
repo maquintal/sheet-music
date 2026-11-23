@@ -18,14 +18,25 @@
     \relative {
     % Pour le haut-parleur, on utilise le son de l'accordéon (plus fiable)
     \set Staff.midiInstrument = #"accordion"
-    \tempo 4 = 60
+    \tempo 4 = 72
     \key e \minor
     \numericTimeSignature
-    \time 4/4
+    \time 6/8
     
     \clef treble
 
-    r8 d'8 d8 r8 d8 d4 cis4  |
+    g''4. fis4 e8 |
+    d4 b'8 b4 g8 |
+    a4 b8 b4.~ |
+    b4 b8 d4 b8 |
+    a4 fis8 g8 e4 |
+    e8 fis8 g8 a8. b16 a8 |
+    a2. |
+    fis 8 g8 a8 b8 a8 g8 |
+    fis4. e8 g8 a8 |
+    b4 cis8 d8 cis8 b8 |
+    a8 fis8 g8 e4. |
+    g4. fis4 e8 d4 fis8 e4.
   }
 >>
 
